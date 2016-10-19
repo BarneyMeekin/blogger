@@ -1,4 +1,4 @@
-class Tagging < ApplicationRecord
-  belongs_to :tag
+class Tagging < ActiveRecord::Base
   belongs_to :article
+  belongs_to :tag
 end
